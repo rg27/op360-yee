@@ -1,9 +1,11 @@
 import logo from './logo.svg';
+import ReactPlayer from 'react-player'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+    <ReactPlayer url='https://www.youtube.com/watch?v=UyeaVYCqLiY' />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
